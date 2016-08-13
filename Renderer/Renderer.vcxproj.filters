@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Context.cpp" />
+    <ClCompile Include="OpenGLContext.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="GLSLShader.cpp" />
+    <ClCompile Include="GLSLShaderGen.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CubeModel.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="Skybox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Context.h" />
+    <ClInclude Include="OpenGLContext.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="GLSLShader.h" />
+    <ClInclude Include="GLSLShaderGen.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CubeModel.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Skybox.h" />
+  </ItemGroup>
+</Project>

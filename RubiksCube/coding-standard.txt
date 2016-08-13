@@ -1,0 +1,93 @@
+CODING STANDARD
+
+Camel case:
+	Everywhere.
+	
+Const:
+	Everywhere.
+	-Do not use:
+		int const *
+	-Use:
+		const int *
+	
+	-Do not use: 
+		const int
+	-Use:
+		int
+		
+	-Do not use references on native data types:
+		const int&
+	-Use:
+		int
+		
+	-Do not use:
+		const_cast<>
+	-Use:
+		brain
+
+Class names: 
+	Example
+	
+Enum names: 
+	Example_t
+Enum member names:
+	EXAMPLE
+	
+Functions:
+	Example();
+Function return type:
+	-On preceding line
+	void
+	Example();
+
+Variables:
+	example;
+Private variables:
+	_example;
+	
+Braces:
+	-Following. Unless definition is multi-lined.
+	if ( x ) {
+	}
+	
+	if ( x && x &&
+		 x )
+	{
+	}
+	
+	
+Comments:
+	Classes:
+	/*
+	====================================================================================
+		ExampleClass abstract class
+		
+			Standard Win32 callback
+	====================================================================================
+	*/
+	
+	Methods:
+	-Should not be needed as method name should tell you all
+	-the method is doing.
+	/*
+	------------------------------------------------------------------------------------
+		Standard Win32 callback
+	------------------------------------------------------------------------------------
+	*/
+	
+	Other:
+	// Example comment
+	
+Spaces:
+	-Use spaces in branch statements and functions
+	if ( x ) 
+	CallMethod( x )
+	
+	-No spaces with casting or typename
+	(int)
+	Class<int>
+	
+Defines:
+	- All upper case.
+	
+
